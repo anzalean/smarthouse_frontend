@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart House WebSocket Test</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      #log {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        height: 300px;
+        overflow-y: auto;
+        margin-bottom: 20px;
+        font-family: monospace;
+      }
+      .row {
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      input,
+      select {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Smart House WebSocket Test</h1>
+
+    <div id="log"></div>
+
+    <div class="row">
+      <button id="connectBtn">Connect to WebSocket</button>
+      <button id="disconnectBtn" disabled>Disconnect</button>
+    </div>
+
+    <h2>Emulator Control</h2>
+
+    <div class="row">
+      <label for="sensorId">Sensor ID:</label>
+      <input type="text" id="sensorId" placeholder="Enter sensor ID" />
+      <select id="pattern">
+        <option value="default">Default</option>
+        <option value="home">Home</option>
+        <option value="outdoor">Outdoor</option>
+        <option value="fridge">Fridge</option>
+        <option value="stable">Stable</option>
+        <option value="bathroom">Bathroom</option>
+        <option value="basement">Basement</option>
+        <option value="living_area">Living Area</option>
+        <option value="entrance">Entrance</option>
+        <option value="kitchen">Kitchen</option>
+        <option value="window">Window</option>
+      </select>
+      <button id="configureSensorBtn">Configure Sensor</button>
+    </div>
+
+    <div class="row">
+      <label for="deviceId">Device ID:</label>
+      <input type="text" id="deviceId" placeholder="Enter device ID" />
+      <button id="configureDeviceBtn">Configure Device</button>
+    </div>
+
+    <div class="row">
+      <label for="controlDeviceId">Device ID:</label>
+      <input type="text" id="controlDeviceId" placeholder="Enter device ID" />
+      <input type="text" id="action" placeholder="Action (e.g., setPower)" />
+      <input
+        type="text"
+        id="parameters"
+        placeholder='Parameters (e.g., {"power":true})'
+      />
+      <button id="controlDeviceBtn">Control Device</button>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+      let socket;
+      const log = document.getElementById('log');
+      const connectBtn = document.getElementById('connectBtn');
+      const disconnectBtn = document.getElementById('disconnectBtn');
+      const configureSensorBtn = document.getElementById('configureSensorBtn');
+      const configureDeviceBtn = document.getElementById('configureDeviceBtn');
+      const controlDeviceBtn = document.getElementById('controlDeviceBtn');
+
+      function addLog(message) {
+        const timestamp = new Date().toLocaleTimeString();
+        log.innerHTML += `<div>[${timestamp}] ${message}</div>`;
+        log.scrollTop = log.scrollHeight;
+      }
+
+      connectBtn.addEventListener('click', () => {
+        // Connect to the WebSocket server
+        socket = io('http://localhost:5000');
+
+        socket.on('connect', () => {
+          addLog(`Connected to WebSocket server (ID: ${socket.id})`);
+          connectBtn.disabled = true;
+          disconnectBtn.disabled = false;
+        });
+
+        socket.on('disconnect', () => {
+          addLog('Disconnected from WebSocket server');
+          connectBtn.disabled = false;
+          disconnectBtn.disabled = true;
+        });
+
+        // Listen for sensor updates
+        socket.on('sensor:update', data => {
+          addLog(`Sensor update: ${JSON.stringify(data)}`);
+        });
+
+        // Listen for device updates
+        socket.on('device:update', data => {
+          addLog(`Device update: ${JSON.stringify(data)}`);
+        });
+
+        // Listen for device status changes
+        socket.on('device:status', data => {
+          addLog(`Device status: ${JSON.stringify(data)}`);
+        });
+      });
+
+      disconnectBtn.addEventListener('click', () => {
+        if (socket) {
+          socket.disconnect();
+          socket = null;
+        }
+      });
+
+      configureSensorBtn.addEventListener('click', () => {
+        const sensorId = document.getElementById('sensorId').value;
+        const pattern = document.getElementById('pattern').value;
+
+        if (!sensorId) {
+          addLog('Error: Sensor ID is required');
+          return;
+        }
+
+        if (socket) {
+          socket.emit('emulator:configureSensor', {
+            sensorId,
+            enabled: true,
+            pattern,
+            updateInterval: 5000, // 5 seconds
+          });
+
+          addLog(
+            `Sent request to configure sensor ${sensorId} with pattern ${pattern}`
+          );
+        } else {
+          addLog('Error: Not connected to WebSocket server');
+        }
+      });
+
+      configureDeviceBtn.addEventListener('click', () => {
+        const deviceId = document.getElementById('deviceId').value;
+
+        if (!deviceId) {
+          addLog('Error: Device ID is required');
+          return;
+        }
+
+        if (socket) {
+          socket.emit('emulator:configureDevice', {
+            deviceId,
+            enabled: true,
+          });
+
+          addLog(`Sent request to configure device ${deviceId}`);
+        } else {
+          addLog('Error: Not connected to WebSocket server');
+        }
+      });
+
+      controlDeviceBtn.addEventListener('click', () => {
+        const deviceId = document.getElementById('controlDeviceId').value;
+        const action = document.getElementById('action').value;
+        const parametersInput = document.getElementById('parameters').value;
+
+        if (!deviceId || !action) {
+          addLog('Error: Device ID and Action are required');
+          return;
+        }
+
+        let parameters = {};
+        try {
+          if (parametersInput) {
+            parameters = JSON.parse(parametersInput);
+          }
+        } catch (error) {
+          addLog(`Error parsing parameters: ${error.message}`);
+          return;
+        }
+
+        if (socket) {
+          socket.emit('device:control', {
+            deviceId,
+            action,
+            parameters,
+          });
+
+          addLog(
+            `Sent request to control device ${deviceId} with action ${action}`
+          );
+        } else {
+          addLog('Error: Not connected to WebSocket server');
+        }
+      });
+    </script>
+  </body>
+</html>

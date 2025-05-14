@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <path d="M0 0h1200v800H0z" fill="#f8f9fa" opacity="0.1"/>
+  
+  <!-- Main House Structure -->
+  <path d="M300 400h600v300H300z" fill="#e3f2fd" stroke="#90caf9" stroke-width="2"/>
+  <path d="M250 400l350-200 350 200" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+  
+  <!-- Windows -->
+  <g opacity="0.9">
+    <!-- Left Windows -->
+    <rect x="350" y="450" width="80" height="100" rx="2" fill="#e3f2fd" stroke="#42a5f5" stroke-width="2"/>
+    <rect x="350" y="580" width="80" height="100" rx="2" fill="#e3f2fd" stroke="#42a5f5" stroke-width="2"/>
+    
+    <!-- Right Windows -->
+    <rect x="770" y="450" width="80" height="100" rx="2" fill="#e3f2fd" stroke="#42a5f5" stroke-width="2"/>
+    <rect x="770" y="580" width="80" height="100" rx="2" fill="#e3f2fd" stroke="#42a5f5" stroke-width="2"/>
+    
+    <!-- Center Windows -->
+    <rect x="510" y="450" width="180" height="100" rx="2" fill="#e3f2fd" stroke="#42a5f5" stroke-width="2"/>
+  </g>
+  
+  <!-- Door -->
+  <path d="M560 580h80v120h-80z" fill="#1976d2" opacity="0.9"/>
+  <circle cx="625" cy="640" r="5" fill="#ffd700"/>
+  
+  <!-- Smart Home Elements -->
+  <g opacity="0.7">
+    <!-- Solar Panels -->
+    <g transform="translate(300,200)">
+      <rect x="50" y="50" width="40" height="60" fill="#90caf9" stroke="#1976d2"/>
+      <rect x="100" y="50" width="40" height="60" fill="#90caf9" stroke="#1976d2"/>
+      <rect x="150" y="50" width="40" height="60" fill="#90caf9" stroke="#1976d2"/>
+    </g>
+    
+    <!-- Antenna/Sensors -->
+    <circle cx="600" cy="180" r="10" fill="#1976d2" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M590 180 l20 -20 M580 170 l40 -20 M580 190 l40 20" stroke="#1976d2" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.4">
+    <circle cx="400" cy="300" r="3" fill="#1976d2"/>
+    <circle cx="800" cy="300" r="3" fill="#1976d2"/>
+    <circle cx="600" cy="250" r="3" fill="#1976d2"/>
+  </g>
+  
+  <!-- Smart Home Network Lines -->
+  <g opacity="0.2">
+    <path d="M400 300 Q600 100 800 300" stroke="#1976d2" stroke-width="1" fill="none"/>
+    <path d="M350 450 Q600 350 850 450" stroke="#1976d2" stroke-width="1" fill="none"/>
+    <path d="M350 580 Q600 480 850 580" stroke="#1976d2" stroke-width="1" fill="none"/>
+  </g>
+</svg> 

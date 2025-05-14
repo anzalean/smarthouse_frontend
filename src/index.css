@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Покращення анімації бічної панелі */
+.MuiDrawer-root {
+  transition-duration: 300ms !important;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+}
+
+.MuiDrawer-paper {
+  transition-duration: 300ms !important;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+}
+
+.MuiBackdrop-root {
+  transition-duration: 300ms !important;
+}
+
+/* Забираємо зайві відступи з контейнерів */
+.MuiContainer-root {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Забезпечуємо повну висоту списку в бічній панелі */
+.MuiList-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Видаляємо верхній падінг для вмісту під хедером */
+.MuiBox-root > .MuiContainer-root {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

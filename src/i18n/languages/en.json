@@ -1,0 +1,1354 @@
+{
+  "header": {
+    "signUp": "Sign Up",
+    "login": "Login",
+    "languageSwitcher": "Language",
+    "settings": "Settings",
+    "userSettings": "Profile Settings",
+    "logout": "Logout"
+  },
+  
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "confirm": "Confirm",
+    "search": "Search",
+    "close": "Close",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "create": "Create",
+    "unknown": "Unknown",
+    "home": "Home",
+    "actions": "Actions",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "monday_short": "Mon",
+      "tuesday_short": "Tue",
+      "wednesday_short": "Wed",
+      "thursday_short": "Thu",
+      "friday_short": "Fri",
+      "saturday_short": "Sat",
+      "sunday_short": "Sun",
+      "everyday": "Every day"
+    }
+  },
+  
+  "contactSection": {
+    "title": "Contact Us",
+    "contactInfo": "Contact Information",
+    "address": "6 Politechnichna St.",
+    "email": "contact@smarthouse.com",
+    "phone": "+380 (68) 094-47-94",
+    "workingHours": "09:00 - 18:00, Mon-Fri",
+    "sendMessage": "Send Message",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message"
+    }
+  },
+  "implementationSteps": {
+    "title": "Implementation Steps",
+    "initialConsultation": {
+      "title": "Initial Consultation",
+      "description": "We start with understanding your needs and assessing your home's current infrastructure."
+    },
+    "systemDesign": {
+      "title": "System Design",
+      "description": "Our engineers create a customized plan that meets your specific requirements and budget."
+    },
+    "installation": {
+      "title": "Installation",
+      "description": "Professional technicians integrate devices and systems with minimal disruption to your home."
+    },
+    "testing": {
+      "title": "Testing",
+      "description": "We thoroughly test each component and ensure everything works together seamlessly."
+    },
+    "training": {
+      "title": "Training",
+      "description": "We provide comprehensive training so you can easily control and manage your smart home."
+    },
+    "support": {
+      "title": "Ongoing Support",
+      "description": "Our team is available for maintenance, updates, and answering any questions you may have."
+    }
+  },
+  "heroSection": {
+    "title": "Smart Home for Your Comfort",
+    "subtitle": "Control your home from anywhere. Convenient and safe.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "login": "Login",
+    "welcomeBack": "Welcome Back",
+    "returningUserMessage": "We're glad to see you again! Continue managing your smart home in your personal dashboard.",
+    "goToDashboard": "Go to Dashboard",
+    "user": "user",
+    "cta": {
+      "contact": "Contact Us",
+      "features": "Our Features"
+    },
+    "imageAlt": "Smart home automation devices",
+    "tagline": "Control from anywhere",
+    "stats": {
+      "clients": "5,000+",
+      "clientsLabel": "Happy Clients",
+      "projects": "8,500+",
+      "projectsLabel": "Projects Completed",
+      "support": "24/7",
+      "supportLabel": "Customer Support"
+    }
+  },
+  "aboutSection": {
+    "title": "About Us",
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in 2020, SmartHouse has been at the forefront of home automation technology. We started with a simple mission: to make smart home technology accessible and user-friendly for everyone.",
+      "paragraph2": "Today, we're proud to serve thousands of customers worldwide, helping them transform their homes into intelligent, connected spaces that enhance their daily lives and contribute to a more sustainable future."
+    },
+    "team": {
+      "title": "Our Team",
+      "paragraph1": "Our team consists of passionate engineers, designers, and customer service professionals who are dedicated to creating the best smart home experience possible. Each member brings unique expertise and creativity to our innovative solutions.",
+      "paragraph2": "We combine technical expertise with a deep understanding of our customers' needs to deliver solutions that truly make a difference in how people live and interact with their homes."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "paragraph1": "We believe that technology should make life easier, not more complicated. Our vision is to create a world where smart homes are accessible to everyone, enhancing comfort, security, and sustainability.",
+      "paragraph2": "Through continuous innovation and exceptional customer service, we strive to be the leading provider of smart home solutions globally."
+    }
+  },
+  "featuresSection": {
+    "title": "Why Choose SmartHouse?",
+    "features": {
+      "smartAutomation": {
+        "title": "Smart Automation",
+        "description": "Control your entire home from anywhere with our intuitive app. Manage lighting, temperature, security, and more with a single tap."
+      },
+      "advancedSecurity": {
+        "title": "Advanced Security",
+        "description": "Keep your home safe with our state-of-the-art security system. Monitor your property in real-time and receive instant alerts."
+      },
+      "energyEfficiency": {
+        "title": "Energy Efficiency",
+        "description": "Save on energy costs with smart optimization. Our system learns your habits and adjusts settings for maximum efficiency."
+      },
+      "deviceIntegration": {
+        "title": "Device Integration",
+        "description": "Seamlessly connect and control all your smart devices from different manufacturers in one unified system."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our expert team is available around the clock to help you with any questions or issues you might have."
+      },
+      "smartAnalytics": {
+        "title": "Smart Analytics",
+        "description": "Get detailed insights about your home's energy usage and security patterns with our advanced analytics."
+      }
+    }
+  },
+  "faqSection": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about SmartHouse technology and services",
+    "questions": {
+      "whatIsSmartHome": {
+        "question": "What is a Smart Home?",
+        "answer": "A smart home is an automation system that integrates various devices and systems in your home to create a comfortable, secure, and energy-efficient living environment. The system allows you to control lighting, heating, air conditioning, security, and other aspects of your home through a single interface."
+      },
+      "howItWorks": {
+        "question": "How does a Smart Home system work?",
+        "answer": "The system operates based on the interaction of various components:\n\n1. Sensors and detectors collect information about the state of your home\n2. A central controller processes the data and makes decisions\n3. Actuators (relays, motors, valves) execute commands\n4. Users control the system through a mobile app or voice commands\n\nAll components are connected through wireless protocols (Wi-Fi, Zigbee, Z-Wave) or wiring."
+      },
+      "benefits": {
+        "question": "What are the benefits of a Smart Home?",
+        "benefits": {
+          "convenience": {
+            "title": "Convenience",
+            "description": "Control all systems from one place"
+          },
+          "security": {
+            "title": "Security",
+            "description": "Access control and monitoring"
+          },
+          "energyEfficiency": {
+            "title": "Energy Efficiency",
+            "description": "Cost optimization and eco-friendly solutions"
+          },
+          "scalability": {
+            "title": "Scalability",
+            "description": "Easy system expansion and device integration"
+          },
+          "support": {
+            "title": "24/7 Support",
+            "description": "Professional assistance anytime you need"
+          }
+        }
+      },
+      "internetRequired": {
+        "question": "Is constant internet connection required?",
+        "answer": "For basic system operation, internet is not mandatory as core functions work locally. However, for remote control, notifications, and software updates, an internet connection is required."
+      },
+      "howToStart": {
+        "question": "How to start using a Smart Home?",
+        "answer": "To get started with the system, you need to:\n\n1. Have a consultation with our experts\n2. Determine required functions and devices\n3. Install and configure the equipment\n4. Receive training on system usage\n\nOur specialists will assist at every stage and provide technical support."
+      }
+    }
+  },
+  "testimonialsSection": {
+    "title": "What Our Customers Say",
+    "testimonials": {
+      "customer1": {
+        "name": "John Smith",
+        "role": "Homeowner",
+        "quote": "SmartHouse has completely transformed how I interact with my home. The automation features are intuitive and the security system gives me peace of mind."
+      },
+      "customer2": {
+        "name": "Sarah Johnson",
+        "role": "Tech Enthusiast",
+        "quote": "The energy savings I've experienced since installing SmartHouse are remarkable. The system is smart enough to learn my habits and optimize accordingly."
+      },
+      "customer3": {
+        "name": "Michael Brown",
+        "role": "Business Owner",
+        "quote": "As someone who travels frequently, being able to monitor and control my smart home remotely is invaluable. The customer support is exceptional too."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "emailLabel": "Email Address",
+      "passwordLabel": "Password",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Sign In",
+      "signingIn": "Signing in...",
+      "googleLogin": "Sign in with Google",
+      "signingInWithGoogle": "Signing in with Google...",
+      "googleLoginFailed": "Google sign-in failed. Please try again.",
+      "newToSmartHouse": "New to SmartHouse?",
+      "createAccount": "Create an account",
+      "invalidCredentials": "Invalid credentials"
+    },
+    "signup": {
+      "title": "Sign up",
+      "nameLabels": {
+        "firstName": "First Name",
+        "lastName": "Last Name"
+      },
+      "emailLabel": "Email Address",
+      "passwordLabel": "Password",
+      "phoneLabel": "Phone Number",
+      "registerButton": "Sign Up",
+      "googleSignUp": "Sign up with Google",
+      "signingUpWithGoogle": "Signing up with Google...",
+      "googleSignUpFailed": "Google sign-up failed. Please try again.",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "registrationFailed": "Registration failed",
+      "validation": {
+        "required": {
+          "firstName": "First name is required",
+          "lastName": "Last name is required",
+          "email": "Email is required",
+          "password": "Password is required",
+          "phone": "Phone number is required"
+        },
+        "minLength": {
+          "firstName": "First name must be at least 2 characters",
+          "lastName": "Last name must be at least 2 characters",
+          "password": "Password must be at least 8 characters"
+        },
+        "maxLength": {
+          "firstName": "First name must not exceed 50 characters",
+          "lastName": "Last name must not exceed 50 characters",
+          "email": "Email must not exceed 255 characters",
+          "password": "Password must not exceed 50 characters"
+        },
+        "format": {
+          "firstName": "First name can only contain letters, spaces, and hyphens",
+          "lastName": "Last name can only contain letters, spaces, and hyphens",
+          "email": "Invalid email format",
+          "password": "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character",
+          "phone": "Please provide a valid phone number"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "instruction": "Please enter your email address and we will send you instructions to reset your password.",
+      "emailLabel": "Email Address",
+      "submit": "Submit",
+      "sending": "Sending...",
+      "emailSent": "Password reset instructions have been sent to your email.",
+      "backToLogin": "Back to Login",
+      "validation": {
+        "required": {
+          "email": "Email is required"
+        },
+        "format": {
+          "email": "Invalid email format"
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "newPasswordLabel": "New Password",
+      "confirmPasswordLabel": "Confirm Password",
+      "submit": "Reset Password",
+      "resetting": "Resetting password...",
+      "success": "Password has been successfully reset! You will be redirected to the login page.",
+      "backToLogin": "Back to Login",
+      "validation": {
+        "required": {
+          "password": "Password is required",
+          "confirmPassword": "Please confirm your password"
+        },
+        "minLength": {
+          "password": "Password must be at least 8 characters"
+        },
+        "format": {
+          "password": "Password must contain uppercase, lowercase, number and special character"
+        },
+        "match": "Passwords do not match"
+      }
+    }
+  },
+  "emailVerification": {
+    "title": "Verify Your Email",
+    "message": "We've sent a verification link to your email address. Please click the link in the email to activate your account.",
+    "checkSpam": "If you don't see the email in your inbox, check your spam folder or trash.",
+    "alreadyVerified": "If you've already verified your email, you can log in to your account.",
+    "backToLogin": "Back to Login",
+    "noEmail": "Didn't receive an email?",
+    "resendEmail": "Resend Email"
+  },
+  "footer": {
+    "description": "Transform your home into a smart living space with our innovative automation solutions.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "links": {
+      "features": "Features",
+      "aboutUs": "About Us",
+      "implementation": "Implementation",
+      "testimonials": "Testimonials",
+      "faq": "FAQ"
+    },
+    "copyright": "All rights reserved."
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security"
+    },
+    "editProfile": "Edit Profile",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "updateSuccess": "Profile updated successfully",
+    "updateError": "Failed to update profile",
+    "changePassword": "Change Password",
+    "passwordDescription": "For security, your password must be at least 8 characters long and include uppercase and lowercase letters, a number, and a special character.",
+    "updatePassword": "Update Password",
+    "updating": "Updating...",
+    "passwordUpdateSuccess": "Password updated successfully",
+    "passwordUpdateError": "Failed to update password",
+    "emailCannotBeChanged": "Email address cannot be changed",
+    "deleteAccount": {
+      "button": "Delete Account",
+      "title": "Delete Account",
+      "warning": "Are you sure you want to delete your account? This action is irreversible and all your data will be lost.",
+      "confirmation": "After deletion, you won't be able to restore access to your account and data.",
+      "confirm": "Yes, Delete My Account",
+      "deleting": "Deleting...",
+      "error": "Failed to delete account"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "validation": {
+      "required": {
+        "firstName": "First name is required",
+        "lastName": "Last name is required",
+        "email": "Email is required",
+        "currentPassword": "Current password is required",
+        "newPassword": "New password is required",
+        "confirmPassword": "Please confirm your password"
+      },
+      "format": {
+        "email": "Invalid email format",
+        "phoneNumber": "Invalid phone number format",
+        "password": "Password must contain uppercase, lowercase, number and special character"
+      },
+      "minLength": {
+        "password": "Password must be at least 8 characters"
+      },
+      "match": "Passwords do not match"
+    }
+  },
+  "addHome": {
+    "title": "Add New Home",
+    "steps": {
+      "houseType": "House Type",
+      "address": "Address",
+      "details": "Home Details"
+    },
+    "houseType": {
+      "title": "Select your home type",
+      "typeLabel": "Home type",
+      "house": "Private house",
+      "houseDescription": "Separate building with its own territory",
+      "apartment": "Apartment",
+      "apartmentDescription": "Separate living unit in an apartment building"
+    },
+    "address": {
+      "title": "Enter your home address",
+      "country": "Country",
+      "region": "Region/State",
+      "city": "City/Town",
+      "cityShort": "City",
+      "postalCode": "Postal code",
+      "street": "Street",
+      "streetShort": "St.",
+      "buildingNumber": "Building number",
+      "apartmentNumber": "Apartment number",
+      "apartmentShort": "apt.",
+      "floor": "Floor",
+      "entrance": "Entrance",
+      "additionalInfo": "Additional Information"
+    },
+    "details": {
+      "title": "Enter your home details",
+      "name": "Home name",
+      "namePlaceholder": "For example: My home, Cottage, Parents' apartment...",
+      "floors": "Number of floors",
+      "rooms": "Number of rooms",
+      "area": "Area (sq.m)",
+      "yearBuilt": "Year built",
+      "status": "Status",
+      "statusActive": "Active",
+      "statusMaintenance": "Under maintenance",
+      "statusInactive": "Inactive",
+      "timezone": "Timezone"
+    },
+    "buttons": {
+      "next": "Next",
+      "back": "Back",
+      "cancel": "Cancel",
+      "createHome": "Create Home"
+    },
+    "validation": {
+      "required": {
+        "country": "Country is required",
+        "region": "Region/State is required",
+        "city": "City/Town is required",
+        "street": "Street is required",
+        "buildingNumber": "Building number is required",
+        "apartmentNumber": "Apartment number is required",
+        "name": "Home name is required",
+        "rooms": "Number of rooms is required",
+        "area": "Area is required"
+      },
+      "minValue": {
+        "floors": "Number of floors must be at least 1",
+        "rooms": "Number of rooms must be at least 1",
+        "area": "Area must be greater than 0",
+        "yearBuilt": "Year built must be after 1900"
+      },
+      "maxValue": {
+        "floors": "Number of floors cannot exceed 200",
+        "yearBuilt": "Year built cannot be later than current year"
+      },
+      "format": {
+        "postalCode": "Invalid postal code format"
+      },
+      "length": {
+        "country": "Country must be between 2 and 50 characters",
+        "region": "Region/State must be between 2 and 50 characters",
+        "city": "City/Town must be between 2 and 50 characters",
+        "street": "Street must be between 2 and 100 characters",
+        "buildingNumber": "Building number must be between 1 and 20 characters",
+        "name": "Home name must be between 2 and 50 characters"
+      },
+      "helperText": {
+        "country": "Enter the country name",
+        "region": "Enter the region or state name",
+        "city": "Enter the city or town name",
+        "street": "Enter the street name",
+        "buildingNumber": "Enter the building number",
+        "apartmentNumber": "Enter the apartment number",
+        "postalCode": "Enter the postal code (optional)",
+        "name": "Create a convenient name for your home",
+        "floors": "How many floors in your home",
+        "rooms": "Total number of rooms in the home",
+        "area": "Total area of the home in square meters",
+        "yearBuilt": "Year when construction was completed"
+      }
+    }
+  },
+  "home": {
+    "noHomes": "You don't have any homes yet",
+    "selectHome": "Select a home from the menu above",
+    "rooms": "Rooms",
+    "addRoom": "Add Room",
+    "noRooms": "This home doesn't have any rooms yet",
+    "addFirstRoom": "Add first room",
+    "deleteHome": {
+      "title": "Delete Home",
+      "confirmation": "Are you sure you want to delete this home? This action cannot be undone.",
+      "success": "Home successfully deleted"
+    },
+    "members": {
+      "title": "Home Members",
+      "addMember": "Add Member",
+      "addMemberDescription": "Add a new member to your home",
+      "emailLabel": "Member's Email",
+      "emailPlaceholder": "Enter member's email address",
+      "email": "Email",
+      "role": "Role",
+      "roleLabel": "Member's Role",
+      "roles": {
+        "user": "User",
+        "guest": "Guest",
+        "owner": "Owner"
+      },
+      "userDescription": "User has access to manage devices and their settings",
+      "guestDescription": "Guest has limited access and can only view data",
+      "rolesTooltip": {
+        "user": "Can manage devices and automations",
+        "guest": "Can only view data and control devices"
+      },
+      "accessPeriodLabel": "Access Period",
+      "accessPeriod": "Access Period",
+      "accessPeriodStart": "Access Start",
+      "accessPeriodEnd": "Access End",
+      "accessType": "Access Type",
+      "limited": "Limited Access",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "unlimited": "Unlimited Access",
+      "addButton": "Add",
+      "cancelButton": "Cancel",
+      "successMessage": "Member successfully added",
+      "errorMessage": "Error adding member",
+      "noMembers": "This home doesn't have any members yet",
+      "membersList": "Members List",
+      "owner": "Owner",
+      "userRole": "User",
+      "guestRole": "Guest",
+      "removeButton": "Remove",
+      "removeMemberTitle": "Remove Member",
+      "removeMemberConfirmation": "Are you sure you want to remove this member from the home?",
+      "editButton": "Edit",
+      "editMemberTitle": "Edit Member",
+      "updateButton": "Update",
+      "memberUpdatedSuccess": "Member successfully updated",
+      "memberRemovedSuccess": "Member successfully removed",
+      "removeError": "Error removing member: {{error}}",
+      "from": "from",
+      "until": "until",
+      "addSuccess": "Member successfully added",
+      "addError": "Error adding member: {{error}}",
+      "updateError": "Error updating member: {{error}}"
+    }
+  },
+  "editHome": {
+    "title": "Edit Home",
+    "success": "Home successfully updated",
+    "error": "Error updating home",
+    "notFound": "Home not found",
+    "tabs": {
+      "details": "Home Details",
+      "address": "Address"
+    }
+  },
+  "room": {
+    "rooms": "Rooms",
+    "addRoom": "Add Room",
+    "editRoom": "Edit Room",
+    "addRoomDescription": "Create a new room in your home",
+    "editRoomDescription": "Edit room information",
+    "name": "Room Name",
+    "type": "Room Type",
+    "loadingRooms": "Loading rooms...",
+    "deleteConfirmTitle": "Delete Room",
+    "deleteConfirmText": "Are you sure you want to delete room '{{roomName}}'? This action cannot be undone.",
+    "loading": "Loading room data...",
+    "floor": "Floor",
+    "area": "Area",
+    "description": "Description",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "status": "Status",
+    "noDevices": "This room doesn't have any devices yet",
+    "noSensors": "This room doesn't have any sensors yet",
+    "addFirstDevice": "Add First Device",
+    "addFirstSensor": "Add First Sensor",
+    "details": "Room Details",
+    "settings": "Room Settings",
+    "deleteRoom": "Delete Room",
+    "stats": "Room Statistics",
+    "totalDevices": "Total Devices",
+    "totalSensors": "Total Sensors",
+    "activeDevices": "Active Devices",
+    "offlineDevices": "Offline Devices",
+    "createdAt": "Date Created",
+    "updatedAt": "Last Updated",
+    "emptyState": "Select a room from the list or create a new one",
+    "roomsList": "Rooms List",
+    "roomsDescription": "Manage all rooms in your smart home",
+    "validation": {
+      "required": {
+        "name": "Room name is required",
+        "type": "Room type is required",
+        "floor": "Floor is required"
+      },
+      "minLength": {
+        "name": "Name must be at least 2 characters",
+        "description": "Description must be at least 5 characters"
+      },
+      "maxLength": {
+        "name": "Name must not exceed 50 characters",
+        "description": "Description must not exceed 500 characters"
+      },
+      "minValue": {
+        "area": "Area must be greater than 0",
+        "floor": "Floor cannot be negative"
+      },
+      "helperText": {
+        "name": "Enter a unique name for the room",
+        "type": "Select the type that best matches the room's purpose",
+        "area": "Specify the room's area in square meters",
+        "floor": "Specify which floor the room is on",
+        "description": "Add a brief description of the room (optional)"
+      }
+    }
+  },
+  "device": {
+    "devices": "Devices",
+    "addDevice": "Add Device",
+    "addDeviceDescription": "Connect a new device to this room",
+    "noDevices": "This room doesn't have any devices yet",
+    "type": "Device Type",
+    "deleteDevice": "Delete Device",
+    "deleteConfirmation": "Are you sure you want to delete this device?",
+    "deleteWarning": "This action cannot be undone. All device data will be lost.",
+    "on": "On",
+    "off": "Off",
+    "status": "Status",
+    "activeStatus": "Active Status",
+    "noProperties": "No additional properties",
+    "deviceTypes": {
+      "smart_light": "Smart Light",
+      "thermostat": "Thermostat",
+      "smart_plug": "Smart Plug",
+      "air_purifier": "Air Purifier",
+      "ventilation": "Ventilation",
+      "smart_lock": "Smart Lock",
+      "gate": "Gate",
+      "irrigation_system": "Irrigation System",
+      "heating_valve": "Heating Valve",
+      "camera": "Camera"
+    },
+    "properties": {
+      "brightness": "Brightness",
+      "color": "Color",
+      "temperature": "Temperature",
+      "mode": "Mode",
+      "currentLoad": "Current Load",
+      "fanSpeed": "Fan Speed",
+      "airflow": "Airflow",
+      "waterFlow": "Water Flow",
+      "resolution": "Resolution",
+      "doorState": "Door State",
+      "position": "Position",
+      "currentTemperature": "Temperature",
+      "currentMode": "Current Mode",
+      "currentFanSpeed": "Current Fan Speed",
+      "currentAirflow": "Current Airflow",
+      "currentWaterFlow": "Current Water Flow",
+      "currentResolution": "Current Resolution",
+      "currentDoorState": "Current Door State",
+      "currentPosition": "Current Position",
+      "airQuality": "Air Quality",
+      "pm25": "PM2.5",
+      "pm10": "PM10"
+    },
+    "modes": {
+      "heat": "Heating",
+      "cool": "Cooling",
+      "auto": "Auto",
+      "eco": "Eco",
+      "manual": "Manual",
+      "sleep": "Sleep",
+      "turbo": "Turbo",
+      "quiet": "Quiet",
+      "boost": "Boost",
+      "night": "Night",
+      "white": "White",
+      "warm_white": "Warm White",
+      "daylight": "Daylight",
+      "soft_white": "Soft White",
+      "cool_white": "Cool White",
+      "candle": "Candle",
+      "sunset": "Sunset",
+      "sunrise": "Sunrise",
+      "deep_blue": "Deep Blue",
+      "ocean_blue": "Ocean Blue",
+      "sky_blue": "Sky Blue",
+      "turquoise": "Turquoise",
+      "mint": "Mint",
+      "forest_green": "Forest Green",
+      "lime": "Lime",
+      "yellow": "Yellow",
+      "amber": "Amber",
+      "orange": "Orange",
+      "red": "Red",
+      "pink": "Pink",
+      "fuchsia": "Fuchsia",
+      "purple": "Purple",
+      "lavender": "Lavender",
+      "night_mode": "Night Mode",
+      "reading_mode": "Reading Mode",
+      "movie_mode": "Movie Mode",
+      "party_mode": "Party Mode",
+      "relax_mode": "Relax Mode",
+      "focus_mode": "Focus Mode"
+    },
+    "states": {
+      "open": "Open",
+      "closed": "Closed"
+    },
+    "units": {
+      "celsius": "°C",
+      "percent": "%",
+      "lux": "lux",
+      "ppm": "ppm",
+      "hpa": "hPa",
+      "decibel": "dB",
+      "microgramsPerCubicMeter": "µg/m³"
+    },
+    "editDevice": "Edit Device",
+    "addNewDevice": "Add New Device",
+    "settings": "Device Settings",
+    "details": "Device Details",
+    "name": "Device Name",
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "serialNumber": "Serial Number",
+    "firmware": "Firmware Version",
+    "lastUpdate": "Last Update",
+    "createdAt": "Date Added",
+    "updatedAt": "Date Updated",
+    "fillBasicInfo": "Fill in basic device data:",
+    "basicInfo": "Basic Information",
+    "specificSettings": "Specific Settings",
+    "completion": "Completion",
+    "validation": {
+      "required": {
+        "name": "Device name is required",
+        "deviceType": "Device type is required",
+        "mode": "Mode is required",
+        "doorState": "Door state is required",
+        "position": "Position is required",
+        "airQuality": "Air quality is required",
+        "color": "Color is required",
+        "resolution": "Resolution is required"
+      },
+      "minLength": {
+        "name": "Name must be at least 2 characters"
+      },
+      "maxLength": {
+        "name": "Name must not exceed 50 characters"
+      },
+      "format": {
+        "brightness": "Brightness must be a number",
+        "temperature": "Temperature must be a number",
+        "currentLoad": "Load must be a number",
+        "fanSpeed": "Fan speed must be a number",
+        "airflow": "Airflow must be a number",
+        "waterFlow": "Water flow must be a number",
+        "pm25": "PM2.5 must be a number",
+        "pm10": "PM10 must be a number",
+        "airQuality": "Air quality must be an object",
+        "resolution": "Resolution must be an object",
+        "width": "Width must be a number",
+        "height": "Height must be a number"
+      },
+      "range": {
+        "brightness": "Brightness must be between 0 and 100",
+        "negativeValue": {
+          "currentLoad": "Load cannot be negative",
+          "temperature": "Temperature cannot be negative",
+          "fanSpeed": "Fan speed cannot be negative",
+          "airflow": "Airflow cannot be negative",
+          "waterFlow": "Water flow cannot be negative",
+          "pm25": "PM2.5 cannot be negative",
+          "pm10": "PM10 cannot be negative",
+          "width": "Width must be greater than zero",
+          "height": "Height must be greater than zero"
+        }
+      },
+      "invalidValue": {
+        "deviceType": "Invalid device type",
+        "color": "Invalid color value",
+        "mode": {
+          "thermostat": "Mode must be one of: heat, cool, auto, eco",
+          "ventilation": "Mode must be one of: auto, manual, boost, eco, night",
+          "airPurifier": "Mode must be one of: auto, manual, sleep, turbo, quiet"
+        },
+        "doorState": "Door state must be one of: open, closed",
+        "position": "Position must be one of: open, closed"
+      }
+    }
+  },
+  "sensor": {
+    "sensors": "Sensors",
+    "addSensor": "Add Sensor",
+    "addSensorDescription": "Connect a new sensor to this room",
+    "noSensors": "This room doesn't have any sensors yet",
+    "on": "On",
+    "off": "Off",
+    "turnOnForReadings": "Turn on to see current readings",
+    "deleteSensor": "Delete Sensor",
+    "deleteConfirmation": "Are you sure you want to delete this sensor?",
+    "deleteWarning": "This action cannot be undone. All sensor data will be lost.",
+    "dangerState": "Dangerous!",
+    "status": "Status",
+    "activeStatus": "Active Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "noData": "No Data",
+    "noProperties": "No properties available",
+    "validation": {
+      "required": {
+        "name": "Name is required",
+        "sensorType": "Sensor type is required",
+        "number": "Value is required"
+      },
+      "minLength": {
+        "name": "Name must be at least 2 characters"
+      },
+      "maxLength": {
+        "name": "Name must not exceed 50 characters"
+      },
+      "format": {
+        "number": "Value must be a number"
+      },
+      "invalidValue": {
+        "sensorType": "Invalid sensor type"
+      }
+    },
+    "steps": {
+      "basicInfo": "Basic Information",
+      "specificSettings": "Specific Settings"
+    },
+    "fields": {
+      "name": "Sensor Name",
+      "sensorType": "Sensor Type"
+    },
+    "standardValuesInfo": {
+      "title": "Standard Values",
+      "description": "Below are the recommended dangerous values for the selected sensor type according to safety standards. You can adjust these values according to your needs."
+    },
+    "noSpecificFields": "There are no specific settings for this sensor type.",
+    "editSensor": "Edit Sensor",
+    "editInfo": {
+      "title": "Edit Settings",
+      "description": "You can change the sensor name and its trigger (dangerous) values. These values are used to identify potentially dangerous situations."
+    },
+    "dangerousThresholds": "Dangerous Threshold Values",
+    "sensorTypes": {
+      "temperature_sensor": "Temperature Sensor",
+      "humidity_sensor": "Humidity Sensor",
+      "motion_sensor": "Motion Sensor",
+      "smoke_sensor": "Smoke Detector",
+      "gas_sensor": "Gas Sensor",
+      "water_leak_sensor": "Water Leak Sensor",
+      "light_sensor": "Light Sensor",
+      "air_quality_sensor": "Air Quality Sensor",
+      "power_sensor": "Power Sensor",
+      "weather_sensor": "Weather Station"
+    },
+    "properties": {
+      "currentTemperature": "Temperature",
+      "currentHumidity": "Humidity",
+      "motionDetected": "Motion Detected",
+      "doorState": "Door State",
+      "windowState": "Window State",
+      "lightLevel": "Light Level",
+      "smokeDetected": "Smoke Detected",
+      "coLevel": "CO Level",
+      "co2Level": "CO2 Level",
+      "waterLeakDetected": "Water Leak Detected",
+      "airQuality": "Air Quality",
+      "pressure": "Pressure",
+      "noiseLevel": "Noise Level",
+      "vibrationDetected": "Vibration Detected",
+      "presenceDetected": "Presence Detected",
+      "battery": "Battery Level",
+      "signalStrength": "Signal Strength",
+      "dangerousTemperaturePlus": "Dangerous High Temperature",
+      "dangerousTemperatureMinus": "Dangerous Low Temperature",
+      "dangerousHumidity": "Dangerous Humidity Level",
+      "dangerousMotionIntensity": "Dangerous Motion Intensity",
+      "dangerousSmokeLevel": "Dangerous Smoke Level",
+      "dangerousMethanLevel": "Dangerous Methane Level",
+      "dangerousCarbonMonoxideLevel": "Dangerous CO Level",
+      "dangerousCarbonDioxideLevel": "Dangerous CO2 Level",
+      "dangerousPropaneLevel": "Dangerous Propane Level",
+      "dangerousNitrogenDioxideLevel": "Dangerous NO2 Level",
+      "dangerousOzoneLevel": "Dangerous Ozone Level",
+      "dangerousWaterDetectionIndex": "Dangerous Water Detection Index",
+      "dangerousLux": "Dangerous Light Level",
+      "dangerousAQI": "Dangerous Air Quality Index",
+      "dangerousPM25": "Dangerous PM2.5 Level",
+      "dangerousPM10": "Dangerous PM10 Level",
+      "dangerousPower": "Dangerous Power Level",
+      "dangerousVoltage": "Dangerous Voltage Level",
+      "dangerousCurrent": "Dangerous Current Level",
+      "dangerousWindSpeed": "Dangerous Wind Speed",
+      "dangerousRainIntensity": "Dangerous Rain Intensity",
+      "currentMotionIntensity": "Motion Intensity",
+      "currentSmokeLevel": "Smoke Level",
+      "currentMethanLevel": "Methane Level",
+      "currentCarbonMonoxideLevel": "CO Level",
+      "currentCarbonDioxideLevel": "CO2 Level",
+      "currentPropaneLevel": "Propane Level",
+      "currentNitrogenDioxideLevel": "NO2 Level",
+      "currentOzoneLevel": "Ozone Level",
+      "currentWaterDetectionIndex": "Water Detection",
+      "currentLux": "Light Level",
+      "currentAQI": "Air Quality Index",
+      "currentPM25": "PM2.5 Level",
+      "currentPM10": "PM10 Level",
+      "currentPower": "Power",
+      "currentVoltage": "Voltage",
+      "currentCurrent": "Current",
+      "currentWindSpeed": "Wind Speed",
+      "currentRainIntensity": "Rain Intensity"
+    },
+    "states": {
+      "detected": "Detected",
+      "notDetected": "Not Detected",
+      "open": "Open",
+      "closed": "Closed",
+      "good": "Good",
+      "moderate": "Moderate",
+      "poor": "Poor",
+      "veryPoor": "Very Poor",
+      "hazardous": "Hazardous"
+    },
+    "units": {
+      "celsius": "°C",
+      "fahrenheit": "°F",
+      "percent": "%",
+      "lux": "lux",
+      "ppm": "ppm",
+      "pascal": "Pa",
+      "volt": "V",
+      "watt": "W",
+      "kilowattHour": "kWh",
+      "microgramsPerCubicMeter": "µg/m³"
+    },
+    "addNewSensor": "Add New Sensor",
+    "settings": "Sensor Settings",
+    "details": "Sensor Details",
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "serialNumber": "Serial Number",
+    "firmware": "Firmware Version",
+    "lastUpdate": "Last Update",
+    "createdAt": "Date Added",
+    "updatedAt": "Date Updated"
+  },
+  "roomTypes": {
+    "livingRoom": "Living Room",
+    "bedroom": "Bedroom",
+    "kitchen": "Kitchen",
+    "bathroom": "Bathroom",
+    "hall": "Hall",
+    "office": "Office",
+    "garage": "Garage",
+    "garden": "Garden",
+    "balcony": "Balcony",
+    "terrace": "Terrace",
+    "attic": "Attic",
+    "basement": "Basement",
+    "utility": "Utility Room",
+    "diningRoom": "Dining Room",
+    "playroom": "Playroom",
+    "laundryRoom": "Laundry Room",
+    "guestRoom": "Guest Room",
+    "pantry": "Pantry",
+    "closet": "Closet",
+    "storageRoom": "Storage Room",
+    "gym": "Gym",
+    "library": "Library",
+    "mediaRoom": "Media Room",
+    "conservatory": "Conservatory",
+    "sunroom": "Sunroom",
+    "custom": "Custom"
+  },
+  "sidebar": {
+    "title": "Menu",
+    "home": "Home",
+    "automations": "Automations",
+    "help": "Help",
+    "feedback": "Feedback",
+    "about": "About",
+    "settings": "Settings",
+    "admin": "Administration"
+  },
+  "rooms": {
+    "room": "Room"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "description": "Leave us feedback about your interaction with our smart home platform",
+    "successMessage": "Your feedback has been successfully sent!",
+    "errorMessage": "An error occurred while sending feedback. Please try again.",
+    "form": {
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Feedback",
+      "name": "Name",
+      "email": "Email"
+    },
+    "supportInfo": {
+      "title": "Technical Support",
+      "description": "If you've encountered technical issues or need help with the Smart House system, our support team is always ready to assist you.",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Working Hours"
+    },
+    "tipsInfo": {
+      "title": "Feedback Tips",
+      "description": "To help us process your feedback as quickly and efficiently as possible, follow these tips:",
+      "tips": "Helpful Tips",
+      "tip1": "Be specific about the features or issues you're describing",
+      "tip2": "If possible, include the device name and software version",
+      "tip3": "Describe the expected result and the actual system behavior"
+    }
+  },
+  "help": {
+    "title": "Help",
+    "subtitle": "Find answers to the most common questions",
+    "notFound": "Didn't find an answer to your question?",
+    "contactUs": "Contact us through the feedback form, and we will respond as soon as possible.",
+    "goToContact": "Contact Us",
+    "tabs": {
+      "general": "General",
+      "home": "Home",
+      "devices": "Devices",
+      "account": "Account"
+    },
+    "faq": {
+      "general": {
+        "q1": "What is 'Smart Home'?",
+        "a1": "Smart Home is a system that allows you to automate and remotely control various processes in your home, such as lighting, heating, security, and more.",
+        "q2": "How do I start using the system?",
+        "a2": "Simply register, add your home, set up rooms and devices. The system is ready to use!",
+        "q3": "Does the system work without internet?",
+        "a3": "Some basic functions may work autonomously, but for full functionality and remote control, an internet connection is required.",
+        "q4": "Does the system support voice assistants?",
+        "a4": "Yes, SmartHouse fully integrates with popular voice assistants such as Amazon Alexa, Google Assistant, and Apple HomeKit/Siri. You can control your smart home using voice commands."
+      },
+      "home": {
+        "q1": "How do I add a new home?",
+        "a1": "Click the 'Add Home' button on the main page and fill in the required information about your home.",
+        "q2": "How many homes can I add?",
+        "a2": "You can add up to 5 homes in the basic plan.",
+        "q3": "How do I delete a home?",
+        "a3": "Go to home settings and click the 'Delete Home' button. Note that this action is irreversible."
+      },
+      "devices": {
+        "q1": "What devices are supported?",
+        "a1": "We support a wide range of devices from different manufacturers, including smart lights, thermostats, cameras, motion sensors, and much more.",
+        "q2": "How do I connect a new device?",
+        "a2": "Go to the 'Devices' section, click 'Add Device', and select the type of device. Then follow the connection instructions.",
+        "q3": "What if a device won't connect?",
+        "a3": "Make sure the device is turned on and in pairing mode. Also check if you have a stable Wi-Fi connection."
+      },
+      "account": {
+        "q1": "How do I change my password?",
+        "a1": "Go to account settings and select the 'Change Password' option.",
+        "q2": "How do I change my email?",
+        "a2": "In account settings, select the 'Change Email' option and follow the instructions.",
+        "q3": "How do I delete my account?",
+        "a3": "In account settings, find the 'Delete Account' section. Note that this action is irreversible."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "We create smart solutions for comfortable living",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to make smart home technology accessible and understandable for everyone. We strive to create solutions that make our users' lives more comfortable, secure, and energy efficient."
+    },
+    "featuresTitle": "Our Advantages",
+    "features": {
+      "security": {
+        "title": "Security",
+        "description": "We provide the highest level of security for your home and data using modern encryption technologies."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Our support team is always ready to help you with any questions and issues."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "We develop systems with high reliability and operational stability so you can fully trust our solutions."
+      },
+      "customization": {
+        "title": "Flexibility",
+        "description": "Our system easily adapts to your needs and can be configured just the way you want it."
+      }
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If you have any questions or suggestions, please contact us:",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  },
+  "validation": {
+    "required": "This field is required"
+  },
+  "automation": {
+    "title": "Automations",
+    "description": "Create and manage automatic scenarios for your smart home",
+    "noAutomations": "You don't have any automations yet",
+    "addAutomation": "Add Automation",
+    "editAutomation": "Edit Automation",
+    "deleteAutomation": "Delete Automation",
+    "deleteConfirmation": "Are you sure you want to delete this automation?",
+    "deleteTitle": "Delete Automation",
+    "deleteWarning": "This action cannot be undone.",
+    "deleteConfirmationWithName": "Are you sure you want to delete automation \"{{name}}\"?",
+    "active": "Active",
+    "inactive": "Inactive",
+    "toggle": "Toggle",
+    "triggerTypes": {
+      "time": "By Time",
+      "sensor": "By Sensor"
+    },
+    "steps": {
+      "name": "Name",
+      "triggerType": "Trigger Type",
+      "triggerSettings": "Trigger Settings",
+      "deviceActions": "Device Actions",
+      "confirmation": "Confirmation"
+    },
+    "deviceActions": {
+      "togglePlug": "Toggle Socket",
+      "adjustLight": "Adjust Lighting",
+      "setTemperature": "Set Temperature",
+      "toggleDoor": "Control Door",
+      "toggleGate": "Control Gate",
+      "startIrrigation": "Start Irrigation",
+      "toggleVentilation": "Control Ventilation",
+      "toggleAirPurifier": "Control Air Purifier",
+      "adjustCamera": "Configure Camera"
+    },
+    "form": {
+      "name": "Automation Name",
+      "triggerType": "Trigger Type",
+      "triggerTypeFixed": "By Time",
+      "cannotChange": "(cannot change)",
+      "sensor": "Sensor",
+      "sensorProperty": "Sensor Property",
+      "thresholdValue": "Threshold Value",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "isRecurring": "Repeat on Schedule",
+      "daysOfWeek": "Days of the Week",
+      "selectSensor": "Select Sensor",
+      "noSensorsAvailable": "No sensors available",
+      "deviceType": "Device Type",
+      "devices": "Devices",
+      "noDevicesAvailable": "No devices of this type available",
+      "noSpecificSettings": "There are no additional settings for smart plugs.\nThe automation will toggle the plug on schedule."
+    },
+    "deviceSettings": {
+      "brightness": "Brightness (%)",
+      "color": "Light Color",
+      "lightColors": {
+        "white": "White",
+        "warm_white": "Warm White",
+        "daylight": "Daylight",
+        "soft_white": "Soft White",
+        "cool_white": "Cool White",
+        "candle": "Candle",
+        "sunset": "Sunset",
+        "sunrise": "Sunrise",
+        "night_mode": "Night Mode",
+        "reading_mode": "Reading Mode",
+        "relax_mode": "Relax Mode"
+      },
+      "temperature": "Temperature (°C)",
+      "mode": "Mode",
+      "thermostatModes": {
+        "heat": "Heat",
+        "cool": "Cool",
+        "auto": "Auto",
+        "eco": "Eco"
+      },
+      "doorState": "Door State",
+      "doorStates": {
+        "open": "Open",
+        "closed": "Close"
+      },
+      "position": "Gate Position",
+      "waterFlow": "Water Flow Intensity (%)",
+      "duration": "Duration (minutes)",
+      "fanSpeed": "Fan Speed (%)",
+      "ventilationMode": "Ventilation Mode",
+      "ventilationModes": {
+        "auto": "Auto",
+        "manual": "Manual",
+        "boost": "Boost",
+        "eco": "Eco",
+        "night": "Night"
+      },
+      "purifierFanSpeed": "Fan Speed (%)",
+      "purifierMode": "Purifier Mode",
+      "purifierModes": {
+        "auto": "Auto",
+        "manual": "Manual",
+        "sleep": "Sleep",
+        "turbo": "Turbo",
+        "quiet": "Quiet"
+      },
+      "resolution": "Resolution",
+      "resolutions": {
+        "vga": "VGA (640x480)",
+        "hd": "HD (1280x720)",
+        "fullhd": "Full HD (1920x1080)",
+        "4k": "4K (3840x2160)"
+      }
+    },
+    "sensorProperties": {
+      "temperature": "Temperature",
+      "humidity": "Humidity",
+      "motion": "Motion Intensity",
+      "smoke": "Smoke Level",
+      "waterLeak": "Water Leak Level",
+      "light": "Light Level",
+      "airQuality": "Air Quality Index",
+      "pm25": "PM2.5 Level",
+      "pm10": "PM10 Level",
+      "methane": "Methane Level",
+      "carbonMonoxide": "CO Level",
+      "carbonDioxide": "CO2 Level",
+      "propane": "Propane Level",
+      "nitrogenDioxide": "NO2 Level",
+      "ozone": "Ozone Level",
+      "power": "Power",
+      "voltage": "Voltage",
+      "current": "Current",
+      "windSpeed": "Wind Speed",
+      "rainIntensity": "Rain Intensity",
+      "pressure": "Atmospheric Pressure"
+    },
+    "sensorUnits": {
+      "celsius": "°C",
+      "percent": "%",
+      "level": "level",
+      "ppm": "ppm",
+      "index": "index",
+      "lux": "lx",
+      "aqi": "AQI",
+      "lel": "% LEL",
+      "watt": "W",
+      "volt": "V",
+      "ampere": "A",
+      "mps": "m/s",
+      "mmh": "mm/h",
+      "mmhg": "mmHg",
+      "upm3": "μg/m³"
+    },
+    "review": {
+      "title": "Automation Review",
+      "name": "Name",
+      "triggerType": "Trigger Type",
+      "time": "Time",
+      "repeatDays": "Repeat on Days",
+      "everyday": "Every Day",
+      "sensor": "Sensor",
+      "property": "Property",
+      "thresholdValue": "Threshold Value",
+      "deviceActions": "Device Actions",
+      "deviceType": "Device Type",
+      "selectedDevices": "Selected Devices",
+      "action": "Action",
+      "switchSocket": "Toggle Socket",
+      "setLighting": "Set Lighting",
+      "setTemperature": "Set Temperature",
+      "doorAction": {
+        "open": "Open Door",
+        "close": "Close Door"
+      },
+      "gateAction": {
+        "open": "Open Gate",
+        "close": "Close Gate"
+      },
+      "startIrrigation": "Start Irrigation",
+      "intensity": "Intensity",
+      "duration": "Duration",
+      "startVentilation": "Start Ventilation",
+      "speed": "Speed",
+      "mode": "Mode",
+      "startPurifier": "Start Air Purifier",
+      "setupCamera": "Setup Camera",
+      "resolution": "Resolution"
+    },
+    "errors": {
+      "createFailed": "Failed to create automation",
+      "updateFailed": "Failed to update automation",
+      "deleteFailed": "Failed to delete automation"
+    },
+    "success": {
+      "created": "Automation created successfully",
+      "updated": "Automation updated successfully",
+      "deleted": "Automation deleted successfully"
+    }
+  },
+  "admin": {
+    "title": "Users",
+    "adminPanel": "Admin Panel",
+    "searchUsers": "Search users",
+    "name": "Name",
+    "email": "Email",
+    "status": "Status",
+    "registrationDate": "Registration Date",
+    "actions": "Actions",
+    "rowsPerPage": "Rows per page",
+    "noUsersFound": "No users found",
+    "deleteUserTitle": "Delete User",
+    "deleteUserConfirmation": "Are you sure you want to delete user {name}? This action cannot be undone.",
+    "changeStatusTitle": "Change User Status",
+    "changeStatusDescription": "Select new status for user {name}",
+    "statuses": {
+      "active": "Active",
+      "blocked": "Blocked",
+      "inactive": "Inactive"
+    }
+  }
+}

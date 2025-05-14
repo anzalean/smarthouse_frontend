@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Основна форма будинку з вирізаними вікнами та входом -->
+  <path 
+    fill="#1976d2" 
+    fill-rule="evenodd"
+    d="M12 2L4 8v14h16V8L12 2z
+       M9 12h6v10H9V12z"
+  />
+</svg>
