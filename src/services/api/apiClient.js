@@ -3,7 +3,7 @@ import { refreshTokenHandler } from '../auth/refreshToken';
 import { storeRef } from '../../redux/storeRef';
 
 const API_URL =
-  import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:3000/api';
+  import.meta.env.VITE_REACT_APP_API_URL || 'https://smarthouse-backend.onrender.com/api';
 
 export const api = axios.create({
   baseURL: API_URL,
